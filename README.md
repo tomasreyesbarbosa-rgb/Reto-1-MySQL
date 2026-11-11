@@ -116,7 +116,7 @@ mysql -u root -p < Parte_2.sql
 mysql -u root -p < Parte_3.sql
 ```
 
-> ⚠️ El script `01_esquema.sql` elimina la base de datos `biblioteca` si ya existe y la vuelve a crear.
+> ⚠️ El script `Parte_1.sql` elimina la base de datos `biblioteca` si ya existe y la vuelve a crear.
 
 ## 🔍 Consultas incluidas
 
