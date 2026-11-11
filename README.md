@@ -26,7 +26,7 @@ Diseñar e implementar una base de datos que elimine la redundancia y las depend
 
 ## 🗂️ Diagrama Entidad-Relación
 
-![Diagrama ER](Imagenes de prueba.png)
+![Imagenes de prueba](Imagenes de prueba.png)
 
 Versión en Mermaid:
 
@@ -105,9 +105,9 @@ Problemas: datos repetidos, cambios que deben hacerse en muchas filas y pérdida
 
 ### Con MySQL Workbench
 1. Abre una conexión a tu servidor MySQL.
-2. Abre `01_esquema.sql` y ejecútalo completo (icono del rayo o `Ctrl + Shift + Enter`).
-3. Abre `02_datos_ejemplo.sql` y ejecútalo.
-4. Abre `03_consultas.sql` y ejecuta las consultas una por una (`Ctrl + Enter`).
+2. Abre `Parte_1.sql` y ejecútalo completo (icono del rayo o `Ctrl + Shift + Enter`).
+3. Abre `Parte_2.sql` y ejecútalo.
+4. Abre `Parte_3.sql` y ejecuta las consultas una por una (`Ctrl + Enter`).
 
 ### Con la línea de comandos
 ```bash
