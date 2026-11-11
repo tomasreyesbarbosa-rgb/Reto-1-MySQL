@@ -134,9 +134,3 @@ mysql -u root -p < 03_consultas.sql
 - Tabla intermedia `Libro_Autor` para libros con varios autores (relación N : M).
 - Campos adicionales: ISBN, año de publicación, género, número de ejemplares.
 - Tablas de socios y préstamos para gestionar la circulación de libros.
-
-## 👤 Autor
-
-**Tu nombre aquí**
-Programa / Curso: _nombre del curso_
-Fecha: _dd/mm/aaaa_
