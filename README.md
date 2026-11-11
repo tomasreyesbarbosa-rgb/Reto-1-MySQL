@@ -26,7 +26,7 @@ Diseñar e implementar una base de datos que elimine la redundancia y las depend
 
 ## 🗂️ Diagrama Entidad-Relación
 
-![Diagrama ER](diagrama_ER.png)
+![Diagrama ER](Imagenes de prueba.png)
 
 Versión en Mermaid:
 
@@ -128,9 +128,3 @@ mysql -u root -p < 03_consultas.sql
 | 4 | Cantidad de libros por autor |
 | 5 | Actualización de un editor en un solo lugar |
 | a, b | Pruebas de integridad referencial (deben generar error) |
-
-## 🔮 Posibles mejoras
-
-- Tabla intermedia `Libro_Autor` para libros con varios autores (relación N : M).
-- Campos adicionales: ISBN, año de publicación, género, número de ejemplares.
-- Tablas de socios y préstamos para gestionar la circulación de libros.
