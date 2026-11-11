@@ -111,9 +111,9 @@ Problemas: datos repetidos, cambios que deben hacerse en muchas filas y pérdida
 
 ### Con la línea de comandos
 ```bash
-mysql -u root -p < 01_esquema.sql
-mysql -u root -p < 02_datos_ejemplo.sql
-mysql -u root -p < 03_consultas.sql
+mysql -u root -p < Parte_1.sql
+mysql -u root -p < Parte_2.sql
+mysql -u root -p < Parte_3.sql
 ```
 
 > ⚠️ El script `01_esquema.sql` elimina la base de datos `biblioteca` si ya existe y la vuelve a crear.
